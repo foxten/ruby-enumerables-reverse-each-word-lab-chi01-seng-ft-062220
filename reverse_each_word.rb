@@ -2,8 +2,9 @@ require 'pry'
 
 
 def reverse_each_word(string)
+ reverse_order = ""
  new_string = string.split
- reverse_order = new_string.each do |element|
+ new_string.each do |element|
    element.reverse
  end
  reverse_order
