@@ -8,7 +8,7 @@ def reverse_each_word(string)
    element.reverse
  end
  binding.pry
- reverse_order
+ reverse_order = new_string.to_s
 end
 
 
