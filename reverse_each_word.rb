@@ -7,6 +7,7 @@ def reverse_each_word(string)
  new_string.each do |element|
    element.reverse
  end
+ binding.pry
  reverse_order
 end
 
