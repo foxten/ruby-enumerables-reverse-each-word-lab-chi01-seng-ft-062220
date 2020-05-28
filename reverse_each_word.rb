@@ -2,7 +2,10 @@ require 'pry'
 
 
 def reverse_each_word(string)
- new_
-
+ new_string = string.split
+ new_string.collect do |element|
+  element.reverse
+end
+new_string
 end
 
